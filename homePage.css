@@ -7,19 +7,24 @@
 }
 #site-header #site-menu {
     flex-direction: column;
-    align-items: flex-end;
+    
 }
 #site-header #site-menu {
     display: flex;
     flex-grow: 1;
 }
-
+#site-menu {
+	display: block;
+	align-content: right;
+	align-self: right;
+	align-items: stretch;
+}
 a {
 	font-size: 18px;
     font-family: "rubik", "Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif"
 }
 ul {
-     display: flex;
+    display: flex;
     width: 100%;
     margin: auto;
 	height: 200%;
@@ -42,12 +47,6 @@ li a {
 }
 
 
-li a:hover {
-    background-color: #959595;
-}
-.active {
-    background-color: #00A221;
-}
 #site-header-container {
     display: flex;
     flex-direction: column;
