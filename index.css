@@ -26,7 +26,7 @@
 	height: 100%;
 	
 }
-#brief-about-paragraph {
+#brief {
 	background: #3C4652;
 	height: 100%;
 }
@@ -35,15 +35,13 @@
     width: 100%;
     margin: auto;
 }
-#site-header #site-menu {
+#site-header nav {
     flex-direction: column;
+	display: flex;
+    flex-grow: 1;
     
 }
-#site-header #site-menu {
-    display: flex;
-    flex-grow: 1;
-}
-#site-menu {
+nav {
 	display: block;
 	align-content: right;
 	align-self: right;
