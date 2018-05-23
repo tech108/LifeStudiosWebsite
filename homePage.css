@@ -1,5 +1,35 @@
 @charset "utf-8";
 /* CSS Document */
+
+#carasol-item {
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	background-color: white;
+	width: 25%;
+	height: 50%;
+	
+}
+#text-area {
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	text-align: center;
+	font-family: 'Segoe', "Segoe UI", "DejaVu Sans", "Trebuchet MS", 'Verdana', "sans-serif";
+	
+}
+#game-carasol {
+	align-items: center;
+	width: 100%;
+	background: #738FB0;
+	align-content: center;
+	height: 100%;
+	
+}
+#brief-about-paragraph {
+	background: #3C4652;
+	height: 100%;
+}
 #site-header {
     display: flex;
     width: 100%;
